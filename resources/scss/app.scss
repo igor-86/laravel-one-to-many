@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap';
+
+/* Index.blade */
+.pos-ab {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cover-img {
+    width: 50px;
+    height: 50px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .not-image {
+        width: 100%;
+        height: 100%;
+        background-color: #ffc107;
+        color: black;
+        font-size: .8rem;
+
+    }
+}
+
+/* Show.blade */
+
+.color-date {
+    color: #ffc107;
+}
+
+.show-image {
+    width: 400px;
+
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .show-not-image {
+        width: 100%;
+        padding: 3rem 0;
+        background-color: #ffc107;
+        text-align: center;
+        font-size: 1.3rem;
+        color: black;
+        text-transform: uppercase;
+    }
+}
+
+/* Edit.blade */
+
+.preview-edit {
+    width: 80px;
+    height: 80px;
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
