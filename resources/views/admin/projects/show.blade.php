@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-9">
-                <div class="type-project">
+                <div class="type-project mb-1">
                     @if ($project->type)
                         <h4>{{ $project->type?->name }}</h4>
                     @else
