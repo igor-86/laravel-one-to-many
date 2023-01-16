@@ -4,6 +4,13 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-9">
+                <div class="type-project">
+                    @if ($project->type)
+                        <h4>{{ $project->type?->name }}</h4>
+                    @else
+                        <h4>Not type</h4>
+                    @endif
+                </div>
                 <div class="d-flex justify-content-between">
                     <h3>{{ $project->title }}</h3>
                     <div class="d-flex">
